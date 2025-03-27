@@ -28,14 +28,14 @@ public class SearchResults extends BasePage{
 	public void goHomePage() {
 		homePage.click();
 	}
-	public void noOfFlightsFound() {
-		System.out.println(flightDetails.getText());
-
-		System.out.println(FlightNameList.size()+" Flights found");
-		for(WebElement flight:FlightNameList) {
-			System.out.println(flight.getText());
-		}
-	}
+//	public void noOfFlightsFound() {
+//		System.out.println(flightDetails.getText());
+//
+//		System.out.println(FlightNameList.size()+" Flights found");
+//		for(WebElement flight:FlightNameList) {
+//			System.out.println(flight.getText());
+//		}
+//	}
 	
 	
 }

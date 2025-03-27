@@ -2,16 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-27T02:04:08 IST" name="Default suite" finished-at="2025-03-27T02:04:52 IST" duration-ms="43903">
+  <suite started-at="2025-03-28T01:16:34 IST" name="Suite" finished-at="2025-03-28T01:17:27 IST" duration-ms="53096">
     <groups>
     </groups>
-    <test started-at="2025-03-27T02:04:08 IST" name="Default test" finished-at="2025-03-27T02:04:52 IST" duration-ms="43903">
+    <test started-at="2025-03-28T01:16:34 IST" name="Test" finished-at="2025-03-28T01:17:27 IST" duration-ms="53096">
       <class name="testsCases.TC001_searchFlightforRoundTrip">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testsCases.TC001_searchFlightforRoundTrip@2dc54ad4]" started-at="2025-03-27T02:04:08 IST" name="setup" finished-at="2025-03-27T02:04:14 IST" duration-ms="5164" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testsCases.TC001_searchFlightforRoundTrip@7d4f9aae]" started-at="2025-03-28T01:16:34 IST" name="setup" finished-at="2025-03-28T01:16:43 IST" duration-ms="9258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="roundTripTicket(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testsCases.TC001_searchFlightforRoundTrip@2dc54ad4]" started-at="2025-03-27T02:04:14 IST" name="roundTripTicket" data-provider="LoginData" finished-at="2025-03-27T02:04:34 IST" duration-ms="19634" status="PASS">
+        <test-method signature="roundTripTicket(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testsCases.TC001_searchFlightforRoundTrip@7d4f9aae]" started-at="2025-03-28T01:16:45 IST" name="roundTripTicket" data-provider="LoginData" finished-at="2025-03-28T01:17:04 IST" duration-ms="18424" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roundTripTicket -->
-        <test-method signature="roundTripTicket(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testsCases.TC001_searchFlightforRoundTrip@2dc54ad4]" started-at="2025-03-27T02:04:34 IST" name="roundTripTicket" data-provider="LoginData" finished-at="2025-03-27T02:04:47 IST" duration-ms="12967" status="PASS">
+        <test-method signature="roundTripTicket(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testsCases.TC001_searchFlightforRoundTrip@7d4f9aae]" started-at="2025-03-28T01:17:04 IST" name="roundTripTicket" data-provider="LoginData" finished-at="2025-03-28T01:17:20 IST" duration-ms="16658" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,15 +145,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roundTripTicket -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsCases.TC001_searchFlightforRoundTrip@2dc54ad4]" started-at="2025-03-27T02:04:47 IST" name="teardown" finished-at="2025-03-27T02:04:52 IST" duration-ms="5195" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testsCases.TC001_searchFlightforRoundTrip@7d4f9aae]" started-at="2025-03-28T01:17:20 IST" name="teardown" finished-at="2025-03-28T01:17:27 IST" duration-ms="6500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="refresh()[pri:0, instance:testsCases.TC001_searchFlightforRoundTrip@2dc54ad4]" started-at="2025-03-27T02:04:52 IST" name="refresh" finished-at="2025-03-27T02:04:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="refresh()[pri:0, instance:testsCases.TC001_searchFlightforRoundTrip@7d4f9aae]" started-at="2025-03-28T01:17:27 IST" name="refresh" finished-at="2025-03-28T01:17:27 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refresh -->
       </class> <!-- testsCases.TC001_searchFlightforRoundTrip -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

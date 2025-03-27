@@ -1,5 +1,6 @@
 package testsCases;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
@@ -22,12 +23,13 @@ public class TC001_searchFlightforRoundTrip extends BaseClass {
 	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class, priority = 1)
 	public void roundTripTicket(String fromCity, String toCity, String startYear, String startMonth, String startDay,
 			String returnYear, String returnMonth, String returnDay, String adult, String children, String infant)
-			throws InterruptedException {
+			throws InterruptedException, IOException {
+		logger.info("Starting roundTripTicket");
 		searchFlightPage FBP = new searchFlightPage(driver);
 		SearchResults searchResults = new SearchResults(driver);
 //		Thread.sleep(1000);
 		FBP.setFromCity(fromCity);
-////		Thread.sleep(3000);
+////		Thread.sleep(3000);+
 		FBP.setToCity(toCity);
 ////		Thread.sleep(2000);
 		FBP.setFromDate(startYear, startMonth, startDay);
@@ -38,9 +40,13 @@ public class TC001_searchFlightforRoundTrip extends BaseClass {
 		Thread.sleep(1000);
 		FBP.searchFlight();
 		searchResults.waitForSearchResults();
-		searchResults.noOfFlightsFound();
+//		searchResults.noOfFlightsFound();
 		Thread.sleep(3000);
+		captureScreen(fromCity+" to "+toCity);
+
 		searchResults.goHomePage();
+		
+		logger.info("Finishing roundTripTicket");
 		// driver.close();
 //		Thread.sleep(5000);
 //		driver.quit();
