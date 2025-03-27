@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testsCases.TC001_searchFlightforRoundTrip">
+        <methods>
+          <include name="teardown"/>
+          <include name="roundTripTicket" invocation-numbers="1"/>
+          <include name="refresh"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testsCases.TC001_searchFlightforRoundTrip -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
